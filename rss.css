@@ -1,3 +1,19 @@
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: #fff;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  max-width: 100%;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+iframe::-webkit-scrollbar {
+  display: none;
+}
+#logo-sidebar::-webkit-scrollbar {
+  display: none;
+}
 iframe {
   margin-bottom: 16px;
   margin-left: auto;
