@@ -4,6 +4,9 @@ body {
   overflow-x: hidden;
   -ms-overflow-style: none;
   max-width: 100%;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
 }
 body::-webkit-scrollbar {
   display: none;
