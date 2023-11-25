@@ -8,6 +8,9 @@ View a working example » [linkedin-scraper](https://linkedin-scraper-web.vercel
 
 ## Installation
 
+> [!IMPORTANT]
+> Embed only one widget per page.
+
 - Place the code below into your web page.
 
 _The code block provides placeholder optional values that can be changed to modify the widget._
