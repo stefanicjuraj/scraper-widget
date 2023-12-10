@@ -4,7 +4,7 @@
 
 The scraper-widget is designed to aggregate, customize, and display RSS / XML data on your website.
 
-View a working example » [linkedin-scraper](https://linkedin-jobs-croatia.vercel.app/)
+View working examples » [`linkedin-jobs-eu`](https://linkedin-jobs-eu.vercel.app/) [`linkedin-jobs-croatia`](https://linkedin-jobs-croatia.vercel.app/)
 
 ## Installation
 
