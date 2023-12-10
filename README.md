@@ -69,16 +69,30 @@ The rest of the fields can be modified and customized based on your preference.
 
 ### Optional Customization
 
+**JavaScript**
+
 The following script added in the previous code block can also be extracted and deployed locally to avoid the need to have a path to an external source.
 
 ```javascript
 <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script>
 ```
 
-View [/app.js](https://github.com/stefanicjuraj/scraper-widget/blob/main/app.js) for an example of the extracted JavaScript code file. Once the file is extracted and deployed locally, modify the script path to your JavaScript code file.
+View [app.js](https://github.com/stefanicjuraj/scraper-widget/blob/main/app.js) for an example of the extracted JavaScript code file. Once the file is extracted and deployed locally, modify the script path to your JavaScript code file.
 
 ```javascript
 <script type="text/javascript" src="https://scraper-widget.vercel.app/app.js"></script>
 ```
 
+**CSS**
 
+The `css_url` value can also be deployed locally to avoid the need to have a path to an external source.
+
+```javascript
+rssfeed_css_url = "/path/to/external-css";
+```
+
+View [css](https://github.com/stefanicjuraj/scraper-widget/blob/main/linkedin-scraper.css) for an example of the CSS file. Once the file is deployed locally, modify the script path to your CSS file.
+
+```javascript
+rssfeed_css_url = "https://scraper-widget.vercel.app/linkedin-scraper.css";
+```
